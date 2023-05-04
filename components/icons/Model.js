@@ -6,6 +6,7 @@ function Model() {
       width="20px"
       height="20px"
       viewBox="0 0 20 20"
+      fill="#818cf8"
     >
       <path d="M3,6H1C0.4,6,0,5.6,0,5s0.4-1,1-1h2V6z" />
       <path d="M19,6h-8V4h8c0.6,0,1,0.4,1,1S19.6,6,19,6z" />

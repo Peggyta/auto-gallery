@@ -4,7 +4,7 @@ function Location() {
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
       viewBox="0 2 24 24"
-      stroke="#a78bfa"
+      stroke="#818cf8"
       width="20"
     >
       <path

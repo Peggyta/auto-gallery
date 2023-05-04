@@ -6,7 +6,7 @@ function Road() {
         id="页面-1"
         stroke="none"
         strokeWidth="1"
-        fill="none"
+        fill="#818cf8"
         fillRule="evenodd"
       >
         <g

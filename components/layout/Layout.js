@@ -1,9 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
-import neoncar from '../../public/assets/neoncar.jpg';
 import Logo from '../icons/Logo';
 import Menu from '../icons/Menu';
+import Image from 'next/image';
+import neoncar from '../../public/assets/neoncar.jpg';
 
 
 const Layout = ({children}) => {
@@ -26,9 +26,10 @@ const Layout = ({children}) => {
                     </div> 
                 </div>
                 <Image
-                 src={neoncar}
-                 alt='mclaren background picture'
-                 layout='responsive'/>
+                    src={neoncar}
+                    alt='mclaren background picture'
+                    layout='responsive'
+                />  
             </header>
             <div>{children}</div>
             <footer  className='w-full mt-12 bg-slate-800'>
