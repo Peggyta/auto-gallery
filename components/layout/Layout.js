@@ -3,23 +3,27 @@ import Link from 'next/link';
 import Image from 'next/image';
 import neoncar from '../../public/assets/neoncar.jpg';
 import Logo from '../icons/Logo';
+import Menu from '../icons/Menu';
 
 
 const Layout = ({children}) => {
     return (
         <>
             <header className='w-full'>
-                <div className='max-w-7xl mt-3 mx-auto'>
-                    <ul className='flex gap-6 pl-6 py-3'>
+                <div className='max-w-7xl mt-3 flex justify-between items-center px-6  mx-auto'>
+                    <ul className='flex pt-2 gap-6'>
                         <li><Link className='flex font-semibold links' href='/'>
-                            <Logo />
+                            <Logo className='links' />
                             CAR FOR YOU 
                         </Link></li>
-                        <li><Link className='links' href='/'>Cars</Link></li>
-                        <li><Link className='links' href='/'>Buy</Link></li>
-                        <li><Link className='links' href='/'>Sell</Link></li>
-                        <li><Link className='links' href='/'>Service & Benefits</Link></li>        
-                    </ul>  
+                        <li className='hidden lg:block md:block'><Link className='links' href='/cars'>Cars</Link></li>
+                        <li className='hidden lg:block md:block'><Link className='links' href='/'>Buy</Link></li>
+                        <li className='hidden lg:block md:block'><Link className='links' href='/'>Sell</Link></li>
+                        <li className='hidden lg:block md:block'><Link className='links' href='/'>Service & Benefits</Link></li>        
+                    </ul> 
+                    <div className='md:hidden lg:hidden'>
+                        <Menu />
+                    </div> 
                 </div>
                 <Image
                  src={neoncar}
@@ -27,10 +31,9 @@ const Layout = ({children}) => {
                  layout='responsive'/>
             </header>
             <div>{children}</div>
-            <footer  className='w-full bg-slate-800'>
-                <div className='flex lg:flex-row md:flex-row flex-col px-6 py-2 justify-between items-center mx-auto max-w-7xl'>
-                    <div><p className='text-center'>CAR FOR YOU ©2023 All rights reserved</p></div>
-                    <div><p>German | French | Italian | English</p></div>
+            <footer  className='w-full mt-12 bg-slate-800'>
+                <div className='text-sm mx-auto max-w-7xl py-2'>
+                    <p className='text-center'>CAR FOR YOU ©2023 All rights reserved</p>
                 </div>
             </footer>
         </>
