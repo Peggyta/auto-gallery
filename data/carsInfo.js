@@ -9,7 +9,7 @@ const carsInfo = [
       price: 41399,
       description:
         "While rival muscle cars have pivoted recently toward sharp handling, the 2023 Dodge Challenger keeps things retro with a package that’s designed more for old-school pony-car jollies and straight-line speed. A V-6 engine is standard in these non-SRT Challengers but the real fun comes with the optional naturally aspirated Hemi V-8 engines, which are offered in a variety of displacements and outputs spanning a 375-hp, 5.7-liter to a 485-hp, 6.4-liter. If you want even more power, Dodge will be happy to oblige with the big-stomper Challenger SRT Hellcat, which we review separately. The regular Challenger isn’t as intense as the outrageous Hellcat, but for some its V-8 burble and relatively comfortable ride will be enough to trigger nostalgic feelings for the vintage Dodge pony cars with which it shares a name.",
-      image: "/images/Dodge.jpeg",
+      image: "/images/Dodge.jpg",
       category: "sport",
     },
     {
@@ -22,7 +22,7 @@ const carsInfo = [
       price: 30499,
       description:
         "If you avoid the pricier trims and engines, the Volkswagen T-Roc is a fine buy. Its hushed refinement makes it one of the most comfortable cars in the class, while its spacious interior and big boot will appeal to families. Also, its high-set driving position is just what SUV buyers crave – and something many other small SUVs fail to deliver. Entry-level Life trim is our pick of the bunch, because it keeps costs down while also coming with plenty of standard equipment. That includes 16in alloy wheels, automatic LED headlights, automatic front windscreen wipers, an auto-dimming rearview mirror, two-zone climate control, adaptive cruise control, adjustable lumbar support, an 8.0in digital driver display and a 6.25in touchscreen infotainment system with Bluetooth, DAB radio and Apple CarPlay/Android Auto smartphone mirroring.",
-      image: "/images/Volkswagen.jpeg",
+      image: "/images/Volkswagen.jpg",
       category: "suv",
     },
     {
@@ -35,7 +35,7 @@ const carsInfo = [
       price: 56099,
       description:
         "Exceptionally sporty and exceedingly luxurious, the E43 has been transformed by AMG from a regular E-Class sedan into an equilibrium of excellence by adding a specially tuned 396-hp twin-turbo V-6 and a nine-speed automatic transmission. This sophisticated cruiser also features standard air suspension and all-wheel drive for adroit handling. The E43 boasts an assertive exterior and an extravagant interior that is equally high tech and high class, with exotic materials and a fully digitized dashboard. For blending all of these attributes in an irresistible fashion, the E43 finds itself on our list of 10Best Cars for 2018. Mercedes-AMG built a nearly flawless sports sedan with the debut of the E43 in 2017. It checked all the boxes of what constitutes performance and class. That winning combination is enough for the company to send it into 2018 with a single change: black leatherette upholstery with red stitching is now standard.",
-      image: "/images/benz.jpeg",
+      image: "/images/benz.jpg",
       category: "sedan",
     },
     {
@@ -48,7 +48,7 @@ const carsInfo = [
       price: 24149,
       description:
         "The A5 Sportback is a great-looking, fun-handling, smooth-driving premium sedan that isn’t as aggressive as the 349-hp S5 Sportback, which we review separately. As an lengthened version of the A5 coupe and convertible, the A5 Sportback uses an identical powertrain setup with a turbocharged inline-four bolted to a seven-speed dual-clutch automatic transmission and all-wheel drive. A5 Sportback 40 model has 201 horsepower and 236 pound-feet of torque, while A5 Sportback 45 model gains an additional 60 horsepower and 40 pound-feet of torque. A rich breadth of standard niceties such as high-quality leather, a panoramic sunroof, and moody ambient lighting make even the base A5 Sportback feel plush. While rivals such as the Mercedes-Benz C-class or Genesis G70 have arguably more stylish interiors, the Sportback’s is butressed by an incredibly clear and high-tech digital gauge display with available navigation handled by Google Earth imagery.",
-      image: "/images/audi.jpeg",
+      image: "/images/audi.jpg",
       category: "sedan",
     },
     {
@@ -126,7 +126,7 @@ const carsInfo = [
       price: 15749,
       description:
         "The reincarnated Mini Cooper made its debut in North America twenty years ago and it's still just as stylish and fun to drive as it was back then. Its retro-modern styling still turns heads, and its sporty chassis tuning gives drivers something to look forward to every time they slide behind the wheel. Offered as either a two-door hatchback, a four-door hatchback, or a convertible, the Cooper isn't particularly practical, but for singles or couples, the smallest Mini model still has appeal. Standard models are powered by a 134-hp turbocharged three-cylinder, but going with an S model swaps that for a spunky 189-hp turbo four, which offers much better acceleration. Unfortunately, doing so also raises the Cooper's price significantly, coming very close in price to luxury-branded cars such as the BMW 2-series Gran Coupe and the Mercedes-Benz A-class. Need more performance than the regular Cooper can provide? Check out the Cooper JCW (reviewed separately), which boasts a fiery 302-hp turbo engine. The standard engine is a 134-hp turbocharged 1.5-liter three-cylinder, which provides adequate pep in this small, lightweight, front-drive vehicle. We prefer the S models, which come with a 189-hp turbocharged 2.0-liter four-cylinder. With the larger engine, the S proved to be a little more than a second faster to 60 mph than with the base 1.5-liter engine, clocking in at 6.2 seconds. We found the automatic transmission shifts well, but the manual transmission is still our favorite as it provides the most driver engagement. The firm suspension lends itself to enthusiast-oriented driving, which can make the Mini Cooper exciting, but the ride can be unforgiving on rough roads.",
-      image: "/images/mini.jpeg",
+      image: "/images/mini.jpg",
       category: "hatchback",
     },
     {
@@ -139,7 +139,7 @@ const carsInfo = [
       price: 41399,
       description:
         "With designer looks and twin-turbo power, the 2022 Maserati Ghibli brings a ton of Italian attitude to the mid-size luxury sedan party. Four-cylinder engines be damned, the Ghibli offers a 345-hp twin-turbo V-6 as standard while upper trims come with either a 424-hp version of that engine or a 580-hp twin-turbo V-8. To go along with its powerful engines, the Ghibli's chassis is set up for driving thrills—it's a joy to pitch down a curvy back road. Unfortunately, it may be too focused on fun, as the Ghibli doesn't stack up well against rivals in the luxury and comfort categories, as its rear seat is less accommodating than rivals such as the Audi A6 or the Mercedes-Benz E-class. A host of leather, wood, and metal trims dot the Ghibli's cabin to upscale effect, but several knobs and switches appear to be lifted directly from the Stellantis (Maserati's parent company) parts bin. Still, the Maserati's styling and performance make it endearing, plus its relative obscurity means it turns heads like Italian exotics from Ferrari and Lamborghini. Maserati has simplified the Ghibli's lineup for 2022 and created three distinct trim levels, starting with the 345-hp GT, then graduating to the 424-hp Modena and then the beastly 580-hp Trofeo. The GT presents a more luxury-oriented design while the Modena and Trofeo lean heavily on more aggressive design themes to project their performance. The Ghibli now comes standard with a host of driver-assistance features, including adaptive cruise control and automated emergency braking.",
-      image: "/images/maserati.jpeg",
+      image: "/images/maserati.jpg",
       category: "sport",
     },
     {

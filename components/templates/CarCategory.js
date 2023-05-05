@@ -12,7 +12,7 @@ const CarCategory = ({data}) => {
     return (
         <div className='max-w-7xl mx-auto'>
             <div className='flex bg-gray-700 w-20 ml-16 mt-12 cursor-pointer 
-            rounded-lg gap-2 py-2 pl-2 hover:bg-gray-600 transition' onClick={backHandler}>
+            rounded-lg gap-2 py-2 pl-2 hover:bg-purple-700 transition' onClick={backHandler}>
                 <Back />
                 <p>Back</p>
             </div>

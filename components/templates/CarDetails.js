@@ -9,7 +9,7 @@ import Calender from "../icons/Calender";
 const CarDetails = (props) => {
     const{name, model, year, distance, description, location, price, image}= props;
     return (
-        <div className='max-w-sm lg:max-w-5xl md:max-w-2xl sm:max-w-md px-4 mx-auto flex flex-col'>
+        <div className='max-w-sm mt-10 lg:max-w-5xl md:max-w-2xl sm:max-w-md px-4 mx-auto flex flex-col'>
             <img className='rounded-xl' src={image} alt='picture of each car' />
             <h3 className='font-bold text-indigo-400 text-2xl my-3'>
                 {name} {model}
