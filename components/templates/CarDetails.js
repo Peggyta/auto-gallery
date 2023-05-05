@@ -63,7 +63,7 @@ const CarDetails = (props) => {
                 <Money />
                 <p>Price:</p>
             </div>
-            <span>{price}</span>
+            <span>{price} $</span>
           </div>
         </div>
         <button className='bg-purple-600 mt-10 py-3 text-xl font-bold 

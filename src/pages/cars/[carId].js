@@ -8,9 +8,7 @@ const carDetail = () => {
     const {carId} = router.query;
     const carIndex = carsInfo[carId-1];
     return (
-        <div>
-            <CarDetails />
-        </div>
+            <CarDetails {...carIndex} />
     );
 };
 

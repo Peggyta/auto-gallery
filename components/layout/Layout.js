@@ -2,8 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Logo from '../icons/Logo';
 import Menu from '../icons/Menu';
-import Image from 'next/image';
-import neoncar from '../../public/assets/neoncar.jpg';
+
 
 
 const Layout = ({children}) => {
@@ -25,13 +24,8 @@ const Layout = ({children}) => {
                         <Menu />
                     </div> 
                 </div>
-                <Image
-                    src={neoncar}
-                    alt='mclaren background picture'
-                    layout='responsive'
-                />  
             </header>
-            <div>{children}</div>
+            <div className='min-h-screen'>{children}</div>
             <footer  className='w-full mt-12 bg-slate-800'>
                 <div className='text-sm mx-auto max-w-7xl py-2'>
                     <p className='text-center'>CAR FOR YOU ©2023 All rights reserved</p>
